@@ -1,0 +1,107 @@
+.card {
+    position: relative;
+   padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    background-color: #fff;
+    overflow: hidden;
+    margin-top: 20px;
+    box-shadow: 5px 5px 15px lightgray;
+}
+
+.card-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-left-width: 5px;
+    margin: left 10px; ;
+    border-left-style: solid;
+}
+
+.card-details {
+    z-index: 1;
+}
+
+.card-title {
+    margin: 0;
+    font-size: x-large;
+    font-weight: bold;
+}
+.card-text{
+    font-size: medium;
+}
+.card-count {
+    margin: 0;
+    font-size: 14px;
+    color: #666;
+}
+
+.card-icon {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    font-size: 64px;
+    color: rgba(0, 0, 0, 0.1);
+    z-index: 0;
+}
+
+.card-title-0{
+    color: #FF5733;
+}
+.card-title-1{
+    color: #47c15d;
+}
+.card-title-2{
+    color: #3357ff;
+}
+.card-title-3{
+    color: #FF33A1;
+}
+.card-0 .card-content {
+    border-left: 7px solid #FF5733;
+   }
+
+.card-1 .card-content {
+    border-left: 5px solid #33FF57;
+}
+
+.card-2 .card-content {
+    border-left: 5px solid #3357FF;
+}
+
+.card-3 .card-content {
+    border-left: 5px solid #FF33A1;
+}
+img{
+    padding: 10px;
+    
+}
+#footer-design{
+    /* background-color: rgb(246, 236, 236); */
+    border-radius: 15px;
+    border: none;
+
+}
+#footer-design:hover{
+    box-shadow: 5px 5px 15px rgb(155, 154, 154,0.3);
+}
+#display_card:hover{
+    box-shadow: 5px 5px 15px rgba(70, 70, 70, 0.5);
+       
+}
+#display_card{
+    margin: 20px;
+}
+#font-design{
+    font-family: "Playwrite AU NSW", cursive;
+    font-optical-sizing: auto;
+    font-weight:500;
+    font-style: normal;
+    margin-bottom: 20px;
+    /* background-color: aqua; */
+}
+#h1-design{
+    background:rgb(218, 236, 164);
+    border-radius: 15px;
+    box-shadow: 5px 5px 15px rgba(102, 104, 95, 0.5);
+}

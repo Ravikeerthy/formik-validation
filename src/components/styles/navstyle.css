@@ -1,0 +1,27 @@
+.col-2 {
+    background-color: rgb(137, 105, 241);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    /* color: white; */
+}
+
+.nav-link {
+    color: white;
+    font-weight: bolder;
+    padding: 30px;
+   
+}
+
+#face-wink {
+    font-size: xx-large;
+    transform: rotate(330deg);
+}
+
+i {
+    margin-right: 15px;
+}
+.nav-link:hover{
+    color: rgb(0, 183, 255);
+}
